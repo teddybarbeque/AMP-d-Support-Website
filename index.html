@@ -4,30 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Amp’d Support</title>
-  <meta name="description" content="Amp’d support: quick fixes, FAQ, troubleshooting, and contact." />
-  <meta property="og:title" content="Amp’d Support" />
-  <meta property="og:description" content="Quick fixes, FAQ, troubleshooting, and contact." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ampdfit.app" />
+  <meta name="description" content="Amp’d support: quick fixes, FAQ, troubleshooting, privacy, and contact." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='11' fill='%23000'/%3E%3Cpath d='M13.5 2 5 13h5l-1.5 9L19 11h-5l-.5-9z' fill='%23fff'/%3E%3C/svg%3E" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    html{scroll-behavior:smooth}
-  </style>
+  <style>html{scroll-behavior:smooth}</style>
 </head>
 <body class="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-900">
-<script>
-  // Edit these to your liking
-  const SITE = {
-    EMAIL: "support@ampdfit.app",
-    COMPANY: "Amp’d Labs",
-    VERSION: "1.0.0",
-    SOCIAL_URL: "https://instagram.com/ampdfit"
-  };
-</script>
 
-<!-- Header -->
 <header class="sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-gray-200">
   <div class="mx-auto max-w-6xl px-4">
     <div class="flex items-center justify-between h-16">
@@ -36,9 +20,6 @@
         <span>Amp’d Support</span>
       </a>
       <nav class="hidden md:flex items-center gap-6 text-sm">
-        <a href="#quick-help" class="hover:opacity-70">Quick help</a>
-        <a href="#faq" class="hover:opacity-70">FAQ</a>
-        <a href="#troubleshooting" class="hover:opacity-70">Troubleshooting</a>
         <a href="#contact" class="hover:opacity-70">Contact</a>
         <a href="#privacy" class="hover:opacity-70">Privacy</a>
         <a href="#terms" class="hover:opacity-70">Terms</a>
@@ -49,123 +30,121 @@
 
 <!-- Hero -->
 <section class="mx-auto max-w-6xl px-4 pt-12 pb-8">
-  <div class="grid md:grid-cols-2 gap-6 items-center">
-    <div>
-      <h1 class="text-3xl md:text-4xl font-bold tracking-tight">We’ll get you back to training fast</h1>
-      <p class="mt-3 text-gray-700 leading-relaxed">
-        Amp’d is the workout timer that keeps you focused. This page has common fixes, how-tos, and a way to reach us.
-      </p>
-      <div class="mt-6 flex flex-wrap gap-3">
-        <a href="#quick-help" class="px-4 py-2 rounded-xl bg-gray-900 text-white shadow hover:opacity-90">Quick help</a>
-        <a id="emailLinkHero" class="px-4 py-2 rounded-xl border border-gray-300 bg-white shadow hover:bg-gray-50">Email support</a>
-      </div>
-      <p class="mt-4 text-xs text-gray-500">Current version: <span id="ver"></span></p>
-    </div>
-    <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5">
-      <div class="flex items-center gap-3">
-        <span class="p-2 rounded-2xl bg-gray-100"><i data-lucide="help-circle" class="w-5 h-5"></i></span>
-        <div>
-          <div class="font-semibold">Top fixes</div>
-          <div class="text-sm text-gray-600">Solve the most common issues in under a minute.</div>
-        </div>
-      </div>
-      <ul class="mt-4 space-y-3 text-sm">
-        <li class="flex items-start gap-3"><i data-lucide="check-circle" class="w-4 h-4 mt-0.5"></i> Open Amp’d → Settings → <span class="font-medium ml-1">Restore Purchases</span> if your paid upgrade isn’t showing.</li>
-        <li class="flex items-start gap-3"><i data-lucide="check-circle" class="w-4 h-4 mt-0.5"></i> If Spotify won’t connect, sign out of Spotify in Safari, then reconnect inside Amp’d.</li>
-        <li class="flex items-start gap-3"><i data-lucide="check-circle" class="w-4 h-4 mt-0.5"></i> Timers not starting? Force-quit Amp’d, reopen, and allow <span class="font-medium ml-1">Notifications</span>.</li>
-      </ul>
-    </div>
-  </div>
+  <h1 class="text-3xl md:text-4xl font-bold">We’ll get you back to training fast</h1>
+  <p class="mt-3 text-gray-700">Amp’d is the workout timer that keeps you focused. This page has fixes, FAQs, and a way to reach us.</p>
 </section>
 
-<!-- Quick Help -->
-<section id="quick-help" class="mx-auto max-w-6xl px-4 pb-8">
+<!-- Contact -->
+<section id="contact" class="mx-auto max-w-6xl px-4 pb-16">
   <div class="flex items-center gap-3 mb-6">
-    <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="bolt" class="w-5 h-5"></i></span>
-    <h2 class="text-xl font-semibold tracking-tight">Quick help</h2>
+    <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="handshake" class="w-5 h-5"></i></span>
+    <h2 class="text-xl font-semibold tracking-tight">Contact us</h2>
   </div>
-  <div class="grid md:grid-cols-3 gap-4">
-    <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5">
-      <div class="flex items-center gap-3">
-        <i data-lucide="music" class="w-5 h-5"></i>
-        <div class="font-semibold">Connect Spotify</div>
-      </div>
-      <ol class="mt-3 text-sm list-decimal list-inside space-y-1 text-gray-700">
-        <li>Open Amp’d → Settings → Music.</li>
-        <li>Tap “Connect Spotify” and approve the permissions.</li>
-        <li>Return to Amp’d. Pick playlists for Sets and Rests.</li>
-      </ol>
+
+  <form id="contactForm"
+        action="https://formspree.io/f/xdkdvdwe"
+        method="POST"
+        class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 space-y-4">
+    <div>
+      <label class="block text-sm font-medium mb-1" for="name">Name</label>
+      <input id="name" name="name" type="text" required
+             class="w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-900" />
     </div>
-    <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5">
-      <div class="flex items-center gap-3">
-        <i data-lucide="clock" class="w-5 h-5"></i>
-        <div class="font-semibold">Set rest timers</div>
-      </div>
-      <p class="mt-3 text-sm text-gray-700">Choose a workout type on the home screen. Amp’d suggests rest times for compounds vs accessories. Fine-tune in Settings → Timers.</p>
+    <div>
+      <label class="block text-sm font-medium mb-1" for="email">Email</label>
+      <input id="email" name="_replyto" type="email" required
+             class="w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-900" />
     </div>
-    <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5">
-      <div class="flex items-center gap-3">
-        <i data-lucide="refresh-ccw" class="w-5 h-5"></i>
-        <div class="font-semibold">Restore purchase</div>
-      </div>
-      <p class="mt-3 text-sm text-gray-700">If you’ve paid and it’s not unlocked, go to Settings → Restore Purchases. Make sure you’re on the same Apple ID.</p>
+    <div>
+      <label class="block text-sm font-medium mb-1" for="subject">Subject</label>
+      <input id="subject" name="subject" type="text"
+             class="w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-900" />
     </div>
+    <div>
+      <label class="block text-sm font-medium mb-1" for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required
+                class="w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-900"></textarea>
+    </div>
+    <button type="submit"
+            class="w-full md:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-gray-900 text-white shadow hover:opacity-90">
+      Send message
+    </button>
+    <p id="formSuccess" class="hidden text-green-700 text-sm mt-2">Thanks! We received your message.</p>
+    <p id="formError" class="hidden text-red-700 text-sm mt-2">Something went wrong. Try again or email us directly.</p>
+  </form>
+</section>
+
+<!-- Privacy Policy -->
+<section id="privacy" class="mx-auto max-w-6xl px-4 pb-16">
+  <div class="flex items-center gap-3 mb-6">
+    <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="shield" class="w-5 h-5"></i></span>
+    <h2 class="text-xl font-semibold tracking-tight">Privacy Policy</h2>
+  </div>
+  <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 text-sm text-gray-700 leading-relaxed space-y-3">
+    <p><span class="font-semibold">Overview.</span> Amp’d is designed to minimize data collection. We do not sell or share your personal data.</p>
+    <p><span class="font-semibold">Information we collect.</span> The app stores your preferences locally on your device. If you contact support, we receive your email address and any details you choose to share. Apple may provide anonymous crash or diagnostics reports.</p>
+    <p><span class="font-semibold">Music integrations.</span> If you connect Spotify, the app uses the granted permissions only for playback control between sets and rests.</p>
+    <p><span class="font-semibold">Third parties.</span> Apple and Spotify handle data under their own privacy policies.</p>
+    <p><span class="font-semibold">Children.</span> Amp’d is not directed to children under 13.</p>
+    <p><span class="font-semibold">Contact.</span> For questions about privacy, email <a href="mailto:teddyobrieniv@gmail.com" class="underline">teddyobrieniv@gmail.com</a>.</p>
+    <p class="text-xs text-gray-500">Last updated: <script>document.write(new Date().toLocaleDateString())</script></p>
   </div>
 </section>
 
-<!-- FAQ -->
-<section id="faq" class="mx-auto max-w-6xl px-4 pb-8">
+<!-- Terms of Use -->
+<section id="terms" class="mx-auto max-w-6xl px-4 pb-16">
   <div class="flex items-center gap-3 mb-6">
     <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="help-circle" class="w-5 h-5"></i></span>
-    <h2 class="text-xl font-semibold tracking-tight">FAQ</h2>
+    <h2 class="text-xl font-semibold tracking-tight">Terms of Use</h2>
   </div>
-  <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5">
-    <div class="border-b border-gray-200 py-4">
-      <button data-accordion class="w-full flex items-center justify-between text-left">
-        <span class="font-medium">What is Amp’d?</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform"></i>
-      </button>
-      <div class="mt-3 text-sm text-gray-700 leading-relaxed hidden">
-        Amp’d is a workout timer that keeps you focused by automating rest intervals and switching music between sets and rests.
-      </div>
-    </div>
-    <div class="border-b border-gray-200 py-4">
-      <button data-accordion class="w-full flex items-center justify-between text-left">
-        <span class="font-medium">Do I need a subscription?</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform"></i>
-      </button>
-      <div class="mt-3 text-sm text-gray-700 leading-relaxed hidden">No. Amp’d is a one-time purchase.</div>
-    </div>
-    <div class="border-b border-gray-200 py-4">
-      <button data-accordion class="w-full flex items-center justify-between text-left">
-        <span class="font-medium">How do I connect Spotify?</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform"></i>
-      </button>
-      <div class="mt-3 text-sm text-gray-700 leading-relaxed hidden">
-        In Amp’d, go to <span class="font-medium">Settings → Music</span>, tap <span class="font-medium">Connect Spotify</span>, and approve access. If stuck, sign out of Spotify in Safari, then try again in the app.
-      </div>
-    </div>
-    <div class="border-b border-gray-200 py-4">
-      <button data-accordion class="w-full flex items-center justify-between text-left">
-        <span class="font-medium">How do I change rest times?</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform"></i>
-      </button>
-      <div class="mt-3 text-sm text-gray-700 leading-relaxed hidden">
-        Choose a workout type on the home screen for a baseline. Tune seconds in <span class="font-medium">Settings → Timers</span>.
-      </div>
-    </div>
-    <div class="py-4">
-      <button data-accordion class="w-full flex items-center justify-between text-left">
-        <span class="font-medium">How do I contact support?</span>
-        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform"></i>
-      </button>
-      <div class="mt-3 text-sm text-gray-700 leading-relaxed hidden">
-        Email us at <a id="emailLinkFaq" class="text-gray-900 underline"></a>. Include your iPhone model, iOS version, and a short screen recording if possible.
-      </div>
-    </div>
+  <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 text-sm text-gray-700 leading-relaxed space-y-3">
+    <p><span class="font-semibold">License.</span> When you purchase Amp’d, you receive a personal, non-transferable license to use the app on your devices.</p>
+    <p><span class="font-semibold">No medical advice.</span> Amp’d provides timers and focus tools, not medical or fitness advice. Consult a qualified professional before starting any workout program.</p>
+    <p><span class="font-semibold">Refunds.</span> Purchases are handled through Apple’s App Store and subject to Apple’s policies.</p>
+    <p><span class="font-semibold">Liability.</span> To the maximum extent allowed by law, Edward O’Brien is not liable for indirect or consequential damages from using the app.</p>
+    <p><span class="font-semibold">Contact.</span> For questions about these terms, email <a href="mailto:teddyobrieniv@gmail.com" class="underline">teddyobrieniv@gmail.com</a>.</p>
   </div>
 </section>
 
-<!-- Troubleshooting -->
-<section id="troubleshooting" class="mx-auto max-w-6xl px-4 pb-8">
-  <div class="flex items-cen
+<!-- Footer -->
+<footer class="border-t border-gray-200 bg-white">
+  <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center md:items-start justify-between gap-3">
+    <div class="flex items-center gap-2">
+      <span class="p-2 rounded-2xl bg-gray-900 text-white"><i data-lucide="bolt" class="w-4 h-4"></i></span>
+      <div>
+        <div class="font-semibold">Amp’d Support</div>
+        <div>© 2025 Edward O’Brien. All rights reserved.</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="#privacy" class="hover:opacity-70">Privacy</a>
+      <a href="#terms" class="hover:opacity-70">Terms</a>
+      <a href="#contact" class="hover:opacity-70">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const resp = await fetch(form.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    });
+    if (resp.ok) {
+      form.reset();
+      document.getElementById('formSuccess').classList.remove('hidden');
+    } else {
+      document.getElementById('formError').classList.remove('hidden');
+    }
+  });
+</script>
+
+</body>
+</html>
