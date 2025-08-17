@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Amp’d Support</title>
-  <meta name="description" content="Amp’d support: quick fixes, FAQ, troubleshooting, privacy, and contact." />
+  <meta name="description" content="Amp’d support: contact, privacy, terms, and troubleshooting." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='11' fill='%23000'/%3E%3Cpath d='M13.5 2 5 13h5l-1.5 9L19 11h-5l-.5-9z' fill='%23fff'/%3E%3C/svg%3E" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -31,7 +31,7 @@
 <!-- Hero -->
 <section class="mx-auto max-w-6xl px-4 pt-12 pb-8">
   <h1 class="text-3xl md:text-4xl font-bold">We’ll get you back to training fast</h1>
-  <p class="mt-3 text-gray-700">Amp’d is the workout timer that keeps you focused. This page has fixes, FAQs, and a way to reach us.</p>
+  <p class="mt-3 text-gray-700">Amp’d is the workout timer that keeps you focused. This page has contact, privacy, and terms in one place.</p>
 </section>
 
 <!-- Contact -->
@@ -72,41 +72,134 @@
     <p id="formSuccess" class="hidden text-green-700 text-sm mt-2">Thanks! We received your message.</p>
     <p id="formError" class="hidden text-red-700 text-sm mt-2">Something went wrong. Try again or email us directly.</p>
   </form>
+
+  <p class="mt-3 text-sm text-gray-600">
+    Prefer email? <a href="mailto:support@ampdfit.app" class="underline">support@ampdfit.app</a>
+  </p>
 </section>
 
-<!-- Privacy Policy -->
+<!-- Privacy Policy (modeled after Cal.ai sections) -->
 <section id="privacy" class="mx-auto max-w-6xl px-4 pb-16">
   <div class="flex items-center gap-3 mb-6">
     <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="shield" class="w-5 h-5"></i></span>
     <h2 class="text-xl font-semibold tracking-tight">Privacy Policy</h2>
   </div>
-  <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 text-sm text-gray-700 leading-relaxed space-y-3">
-    <p><span class="font-semibold">Overview.</span> Amp’d is designed to minimize data collection. We do not sell or share your personal data.</p>
-    <p><span class="font-semibold">Information we collect.</span> The app stores your preferences locally on your device. If you contact support, we receive your email address and any details you choose to share. Apple may provide anonymous crash or diagnostics reports.</p>
-    <p><span class="font-semibold">Music integrations.</span> If you connect Spotify, the app uses the granted permissions only for playback control between sets and rests.</p>
-    <p><span class="font-semibold">Third parties.</span> Apple and Spotify handle data under their own privacy policies.</p>
-    <p><span class="font-semibold">Children.</span> Amp’d is not directed to children under 13.</p>
-    <p><span class="font-semibold">Contact.</span> For questions about privacy, email <a href="mailto:teddyobrieniv@gmail.com" class="underline">teddyobrieniv@gmail.com</a>.</p>
-    <p class="text-xs text-gray-500">Last updated: <script>document.write(new Date().toLocaleDateString())</script></p>
+
+  <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 text-sm text-gray-700 leading-relaxed space-y-4">
+    <p><strong>Last updated:</strong> August 17, 2025</p>
+
+    <p>This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Service and explains Your privacy rights and how the law protects You. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+    <h3 class="text-base font-semibold mt-6">Interpretation and Definitions</h3>
+    <p><strong>Interpretation.</strong> Words with the initial letter capitalized have meanings defined below. The following definitions shall have the same meaning whether they appear in singular or plural.</p>
+    <p><strong>Definitions.</strong> For the purposes of this Privacy Policy:
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li><strong>Application</strong> refers to Amp’d, the mobile application provided by the Company.</li>
+        <li><strong>Company</strong> (referred to as either “the Company”, “We”, “Us” or “Our”) refers to Edward O’Brien, developer of Amp’d.</li>
+        <li><strong>Country</strong> refers to the United States.</li>
+        <li><strong>Device</strong> means any device that can access the Service, such as a smartphone or tablet.</li>
+        <li><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li>
+        <li><strong>Service</strong> refers to the Application and the support website located at <a class="underline" href="https://ampdfit.app">ampdfit.app</a>.</li>
+        <li><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company (e.g., Formspree for contact form processing).</li>
+        <li><strong>Usage Data</strong> refers to data collected automatically, such as anonymous diagnostics and crash reports provided by Apple.</li>
+        <li><strong>You</strong> means the individual accessing or using the Service.</li>
+      </ul>
+    </p>
+
+    <h3 class="text-base font-semibold mt-6">Collecting and Using Your Personal Data</h3>
+    <h4 class="font-medium">Types of Data Collected</h4>
+    <p><strong>Personal Data.</strong> While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You, including:
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li>Email address and message contents if You contact support via form or email.</li>
+        <li>Optional information You may choose to provide in Your message (e.g., name, device model, OS version).</li>
+      </ul>
+    </p>
+
+    <p><strong>Workout &amp; Progression Data.</strong> When You log workouts in the App (e.g., exercises, sets, reps, weights, rest times, notes), this information is stored <em>locally on Your Device</em> and is not transmitted to Our servers.</p>
+
+    <p><strong>Usage Data.</strong> When using the Service, anonymous diagnostics such as crash logs may be provided by Apple to help Us improve performance and stability. If You enable a music integration (e.g., Spotify), the App may request limited playback permissions strictly to control in-app audio; We do not access Your Spotify password or personal listening history.</p>
+
+    <h4 class="font-medium">Tracking Technologies and Cookies</h4>
+    <p>The Application does not use cookies. The support Website may use minimal Cookies (e.g., to remember cookie consent). You can instruct Your browser to refuse Cookies; some Website features may not function without them.</p>
+
+    <h4 class="font-medium">Use of Your Personal Data</h4>
+    <p>The Company may use Personal Data for the following purposes:
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li><strong>To provide and maintain the Service</strong>, including enabling workout logging and progression tracking on Your Device.</li>
+        <li><strong>To contact You</strong> to respond to support requests You submit.</li>
+        <li><strong>To manage Your requests</strong> and improve customer support.</li>
+        <li><strong>To improve the Service</strong> using anonymous diagnostics and crash reports.</li>
+        <li><strong>For legal compliance</strong> and to protect against fraud or abuse.</li>
+      </ul>
+      We do not sell or rent Your Personal Data.
+    </p>
+
+    <h4 class="font-medium">Sharing Your Personal Data</h4>
+    <p>We may share limited information in the following situations:
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li><strong>With Service Providers</strong> that process support submissions (e.g., Formspree) solely to operate the contact form and deliver Your message to Us.</li>
+        <li><strong>For business transfers</strong> in connection with a merger, acquisition, or asset sale (You will be notified before any change of controller).</li>
+        <li><strong>For legal reasons</strong> to comply with law or valid requests by public authorities.</li>
+        <li><strong>With Your consent</strong> for any other purpose disclosed at the time of collection.</li>
+      </ul>
+    </p>
+
+    <h4 class="font-medium">Retention of Your Personal Data</h4>
+    <p>
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li><strong>Workout &amp; progression data</strong> remain on Your Device until You delete them or uninstall the App (unless preserved in device backups).</li>
+        <li><strong>Support messages</strong> are retained in Our support inbox for as long as necessary to resolve Your request and for limited archival, unless You request deletion.</li>
+        <li><strong>Anonymous diagnostics</strong> are retained by Apple under its own policies.</li>
+      </ul>
+    </p>
+
+    <h4 class="font-medium">Transfer of Your Personal Data</h4>
+    <p>We do not transfer Your workout/progression data to Our servers. Contact submissions may be processed by Service Providers or email providers that operate in other countries; We take reasonable steps to ensure appropriate protections are in place.</p>
+
+    <h4 class="font-medium">Delete Your Personal Data</h4>
+    <p>You may delete workouts and progression history from within the App at any time. Uninstalling the App removes locally stored data (subject to device backups). To request deletion of support messages You sent to Us, contact <a class="underline" href="mailto:support@ampdfit.app">support@ampdfit.app</a>.</p>
+
+    <h3 class="text-base font-semibold mt-6">Disclosure of Your Personal Data</h3>
+    <p><strong>Business Transactions.</strong> If the Company is involved in a merger, acquisition, or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+    <p><strong>Law Enforcement.</strong> Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities.</p>
+    <p><strong>Other Legal Requirements.</strong> The Company may disclose Your Personal Data in the good-faith belief that such action is necessary to comply with a legal obligation; protect and defend the rights or property of the Company; prevent or investigate possible wrongdoing; protect the personal safety of Users or the public; or protect against legal liability.</p>
+
+    <h3 class="text-base font-semibold mt-6">Security of Your Personal Data</h3>
+    <p>The security of Your Personal Data is important to Us. We use reasonable technical and administrative safeguards and rely on iOS device-level protections (such as device encryption). However, no method of transmission or storage is 100% secure.</p>
+
+    <h3 class="text-base font-semibold mt-6">Children’s Privacy</h3>
+    <p>Our Service is not directed to anyone under the age of 13. We do not knowingly collect Personal Data from children under 13. If You believe a child has provided Personal Data, please contact Us so we can delete it.</p>
+
+    <h3 class="text-base font-semibold mt-6">Links to Other Websites</h3>
+    <p>Our Service may contain links to other websites not operated by Us. We have no control over and assume no responsibility for their content or privacy practices. We encourage You to review their privacy policies.</p>
+
+    <h3 class="text-base font-semibold mt-6">Changes to this Privacy Policy</h3>
+    <p>We may update this Privacy Policy from time to time. We will post the new Privacy Policy on this page and update the “Last updated” date. If the changes are significant, We may provide a prominent notice in the App or on the Website.</p>
+
+    <h3 class="text-base font-semibold mt-6">Contact Us</h3>
+    <p>If You have questions about this Privacy Policy, You can contact Us:</p>
+    <ul class="list-disc list-inside space-y-1 mt-2">
+      <li>By email: <a class="underline" href="mailto:support@ampdfit.app">support@ampdfit.app</a></li>
+      <li>Through our contact form: <a class="underline" href="#contact">ampdfit.app/#contact</a></li>
+    </ul>
   </div>
 </section>
 
-<!-- Terms of Use -->
+<!-- Terms of Use (kept concise, can expand later) -->
 <section id="terms" class="mx-auto max-w-6xl px-4 pb-16">
   <div class="flex items-center gap-3 mb-6">
     <span class="p-2 rounded-2xl bg-gray-100 shadow-sm"><i data-lucide="help-circle" class="w-5 h-5"></i></span>
     <h2 class="text-xl font-semibold tracking-tight">Terms of Use</h2>
   </div>
   <div class="rounded-2xl border border-gray-200 bg-white shadow-sm p-5 text-sm text-gray-700 leading-relaxed space-y-3">
-    <p><span class="font-semibold">License.</span> When you purchase Amp’d, you receive a personal, non-transferable license to use the app on your devices.</p>
-    <p><span class="font-semibold">No medical advice.</span> Amp’d provides timers and focus tools, not medical or fitness advice. Consult a qualified professional before starting any workout program.</p>
-    <p><span class="font-semibold">Refunds.</span> Purchases are handled through Apple’s App Store and subject to Apple’s policies.</p>
-    <p><span class="font-semibold">Liability.</span> To the maximum extent allowed by law, Edward O’Brien is not liable for indirect or consequential damages from using the app.</p>
-    <p><span class="font-semibold">Contact.</span> For questions about these terms, email <a href="mailto:teddyobrieniv@gmail.com" class="underline">teddyobrieniv@gmail.com</a>.</p>
+    <p><strong>License.</strong> When You purchase Amp’d, You receive a personal, non-transferable license to use the App on Your devices.</p>
+    <p><strong>Health disclaimer.</strong> Amp’d provides timers and focus tools, not medical or fitness advice. Consult a qualified professional before starting any exercise program.</p>
+    <p><strong>Purchases &amp; refunds.</strong> Transactions are handled by Apple and subject to App Store policies.</p>
+    <p><strong>Liability.</strong> To the maximum extent permitted by law, Edward O’Brien is not liable for indirect, incidental, special, or consequential damages arising from use of the App.</p>
+    <p><strong>Contact.</strong> Questions about these terms? Email <a class="underline" href="mailto:support@ampdfit.app">support@ampdfit.app</a>.</p>
   </div>
 </section>
 
-<!-- Footer -->
 <footer class="border-t border-gray-200 bg-white">
   <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center md:items-start justify-between gap-3">
     <div class="flex items-center gap-2">
